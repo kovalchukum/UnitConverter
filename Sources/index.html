@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        
+        <div class="parentContainer">
+            <div class="mainContainer">
+                 <div class="topInnerContainer">
+                 <input placeholder="0" id="main-input" class="mainInput" onkeypress="validate(event)">
+                 </div>  
+                 <div class="bottomInnerContainer">
+                     <p id="speed-header" class="resultHeader">Speed (km/h | m/s)</p>
+                     <p id="speed-el" class="resultValue">0 km/h = 0 m/s | 0 m/s = 0 km/h</p>
+
+                     <p id="lenght-header" class="resultHeader">Distance (miles | kilometers)</p>
+                     <p id="length-el" class="resultValue">0 miles = 0 kilometers | 0 kilometers = 0 miles</p>                     
+                 </div>  
+            </div>         
+        </div>
+        <script src="js/unitConverter.js"></script>
+    </body>
+</html>
